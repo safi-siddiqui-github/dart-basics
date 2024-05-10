@@ -16,8 +16,8 @@ void main() {
   final myFinal = 5;
 
   // DateTime.now() - Value is known after we run - not a compile time constant
-  final myFinalDate =
-      DateTime.now(); // runtime variables - compile time variable
+  // runtime variables - compile time variable
+  final myFinalDate = DateTime.now();
   // const myConstDate = DateTime.now();  //compile time constant
 
   // print([myVar, myConst, myFinal, myFinalDate]);
